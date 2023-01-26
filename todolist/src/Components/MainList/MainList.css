@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(218, 221, 223);
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 100%;
+     /* box-shadow: rgba(0, 0, 0, 0.552) 0px 1px 2px 0px, rgba(0, 0, 0, 0.766) 0px 2px 6px 2px; */
+}
+.container{
+    
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+    /* height: 100vh; */
+   
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-radius: 0px;
+    width: 100%;
+    /* height: 100%; */
+    /* background-image: linear-gradient(to top, #6f6f6f, #6e6473, #957d90, #a81f68, #e90060); */
+    /* background-color: rgba(66, 65, 65, 0.248); */
+    /* backdrop-filter: blur(5px); */
+    /* box-shadow: rgba(0, 0, 0, 0.552) 0px 1px 2px 0px, rgba(0, 0, 0, 0.766) 0px 2px 6px 2px; */
+}
+h1{
+    font-size: 50px;
+    width: 100%;
+    color: black;
+    margin-top: 2%;
+    padding-left: 20px;
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    /* text-shadow: 2px 2px 4px red; */
+}
+hr{
+    background-color: black;
+    color: black;
+    width: 98%;
+    border: 1px solid black;
+}
+
+.main{
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+.list{
+    display: flex;
+    width: 100%;  
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+h3{
+    /* border: 2px solid red; */
+    width: 55%;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    padding: 8px 8px;
+    margin-top: 0px;
+    border-radius: 5px;
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    /* backdrop-filter: blur(10px); */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+}
+.list .list-item #checkbox{
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+}
+.list h4{
+    width: 500px;
+    text-align: start;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+
+/* Media Queary */
+
+@media (max-width: 952px) {
+    h3
+    {
+        width: 80%;
+    }
+    body
+    {
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+}
+
+@media (max-width: 772px) {
+    h3
+    {
+        width: 80%;
+    }
+    body
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
+
+@media (max-width: 772px) {
+    h3
+    {
+        width: 90%;
+    }
+    body
+    {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+}
+@media (max-width: 400px) {
+    h3
+    {
+        width: 95%;
+    }
+    body
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .list h4
+    {
+        font-size: 15px;
+    }
+}
